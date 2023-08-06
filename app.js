@@ -8,7 +8,7 @@ app.listen(3000,()=> console.log("server on"));
 
 
 app.get("/",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/home.html"));
+    res.sendFile(path.join(__dirname,"/views/detalleProducto.html"));
 
 });
 app.get("/register",(req,res)=>{
